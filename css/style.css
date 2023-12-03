@@ -1,0 +1,782 @@
+@import url(https://fonts.googleapis.com/css2?family=Palanquin:wght@100;200;300;400;500;600;700&display=swap);
+
+body {
+  font-family: "Palanquin", sans-serif;
+}
+body,
+html {
+  height: 100%;
+}
+
+body {
+  background-image: url("../images/4-43433_holiday-wallpapers-for-2018-hd-and-4-k.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  padding: 50px;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 50px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.pages {
+  position: relative;
+  display: flex;
+  gap: 50px;
+}
+
+.mult {
+  cursor: pointer;
+}
+
+.song {
+  cursor: pointer;
+}
+
+.mov {
+  cursor: pointer;
+}
+.mult:hover {
+  box-shadow: 18px 18px 7px #2a1b9a, -18px -18px 7px #5435ff;
+}
+
+.song:hover {
+  box-shadow: 18px 18px 7px #2a1b9a, -18px -18px 7px #5435ff;
+}
+
+.mov:hover {
+  box-shadow: 18px 18px 7px #2a1b9a, -18px -18px 7px #5435ff;
+}
+
+main {
+  margin: auto;
+
+  position: absolute;
+  top: 20%;
+  transform: translate(-20, -40%);
+  left: 45%;
+}
+
+.number {
+  font-size: 200px;
+  color: white;
+}
+
+.text {
+  margin-top: -50px;
+  margin-left: -80px;
+  font-size: 100px;
+  color: white;
+}
+
+.container {
+  height: 300px;
+  width: 1400px;
+  margin-top: 550px;
+  margin-left: calc(40% - 300px);
+  display: flex;
+}
+
+.card {
+  display: flex;
+  height: 480px;
+  width: 400px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+  cursor: pointer;
+}
+
+.card1 {
+  position: relative;
+  display: flex;
+  height: 480px;
+  width: 400px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card2 {
+  display: flex;
+  height: 480px;
+  width: 400px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.card3 {
+  display: flex;
+  height: 480px;
+  width: 400px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+
+.savdo {
+  margin-top: 30px;
+}
+.card4 {
+  display: flex;
+  height: 480px;
+  width: 400px;
+  background-color: #17141d;
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  /*   margin-left: -50px; */
+  transition: 0.4s ease-out;
+  position: relative;
+  left: 0px;
+}
+.card1:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card1:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card1:hover ~ .card1 {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.card2:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card2:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card2:hover ~ .card2 {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.card3:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card3:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card3:hover ~ .card3 {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+.card4:not(:first-child) {
+  margin-left: -50px;
+}
+
+.card4:hover {
+  transform: translateY(-20px);
+  transition: 0.4s ease-out;
+}
+
+.card4:hover ~ .card {
+  position: relative;
+  left: 50px;
+  transition: 0.4s ease-out;
+}
+
+.title {
+  color: white;
+  font-weight: 300;
+  position: absolute;
+  left: 20px;
+  top: 15px;
+}
+
+.bar {
+  position: absolute;
+  top: 100px;
+  left: 20px;
+  height: 5px;
+  width: 150px;
+}
+
+.image {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 12px;
+  position: absolute;
+  top: 150px;
+  left: 80px;
+}
+
+.tabrik {
+  width: 200px;
+  color: white;
+}
+
+.emptybar {
+  background-color: #2e3033;
+  width: 100%;
+  height: 100%;
+}
+
+.filledbar {
+  position: absolute;
+  top: 0px;
+  z-index: 3;
+  width: 0px;
+  height: 100%;
+  background: rgb(0, 154, 217);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 154, 217, 1) 0%,
+    rgba(217, 147, 0, 1) 65%,
+    rgba(255, 186, 0, 1) 100%
+  );
+  transition: 0.6s ease-out;
+}
+
+.card1:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.card2:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.card3:hover .filledbar {
+  width: 120px;
+  transition: 0.4s ease-out;
+}
+
+.circle {
+  position: absolute;
+  top: 150px;
+  left: calc(50% - 60px);
+}
+
+.stroke {
+  stroke: white;
+  stroke-dasharray: 360;
+  stroke-dashoffset: 360;
+  transition: 0.6s ease-out;
+}
+
+svg {
+  fill: #17141d;
+  stroke-width: 2px;
+}
+
+.card1:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+
+.card2:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+
+.card3:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+
+.card4:hover .stroke {
+  stroke-dashoffset: 100;
+  transition: 0.6s ease-out;
+}
+
+.cardd {
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #000;
+  margin-top: 220px;
+  display: flex;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  flex: grow 1;
+}
+
+.social {
+  display: flex;
+  gap: 40px;
+  cursor: pointer;
+}
+
+.grid {
+  margin-top: 40px;
+  width: 900px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+h1 {
+  cursor: pointer;
+}
+
+.instagram {
+  font-size: 64px;
+  cursor: pointer;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  font-size: 24px;
+}
+
+button {
+  width: 150px;
+  height: 50px;
+  border-radius: 12px;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  left: 40px;
+}
+
+.cont {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  .logo {
+    font-size: 18px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .mult {
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .song {
+    font-size: 15px;
+    cursor: pointer;
+  }
+
+  .mov {
+    font-size: 15px;
+    cursor: pointer;
+  }
+  .number {
+    font-size: 100px;
+    color: white;
+  }
+
+  .pages {
+    gap: 15px;
+  }
+  .text {
+    margin-top: -40px;
+    margin-left: -60px;
+    font-size: 60px;
+    color: white;
+  }
+
+  .item1 {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 320px;
+    background-color: #17141d;
+    border-radius: 10px;
+
+    position: relative;
+    left: 0px;
+  }
+
+  .item2 {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 320px;
+    background-color: #17141d;
+    border-radius: 10px;
+
+    position: relative;
+    left: 0px;
+  }
+
+  .item3 {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 320px;
+    background-color: #17141d;
+    border-radius: 10px;
+
+    position: relative;
+    left: 0px;
+  }
+
+  .card1img {
+    position: relative;
+    top: -100px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .tabrik {
+    position: relative;
+    top: -100px;
+  }
+  .card2img {
+    width: 150px;
+    height: 100px;
+  }
+  .card3img {
+    width: 150px;
+    height: 100px;
+  }
+  .card1btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+  }
+
+  .savdo {
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  footer {
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    margin-top: 220px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    flex: grow 1;
+  }
+
+  .social {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .grid {
+    margin-top: 20px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  h1 {
+    cursor: pointer;
+    font-size: 21px;
+  }
+
+  .instagram {
+    font-size: 44px;
+    cursor: pointer;
+  }
+
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .cont {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .logo {
+    font-size: 15px;
+    font-weight: 800;
+    cursor: pointer;
+  }
+
+  .pages {
+    position: relative;
+    display: flex;
+    gap: 10px;
+  }
+  .mult {
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .song {
+    font-size: 12px;
+    cursor: pointer;
+  }
+
+  .mov {
+    font-size: 12px;
+    cursor: pointer;
+  }
+  .number {
+    font-size: 80px;
+    color: white;
+  }
+
+  .text {
+    margin-top: -30px;
+    margin-left: -40px;
+    font-size: 40px;
+    color: white;
+  }
+
+  .item1 {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 320px;
+    background-color: #17141d;
+    border-radius: 10px;
+
+    position: relative;
+    left: 0px;
+  }
+
+  .item2 {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 320px;
+    background-color: #17141d;
+    border-radius: 10px;
+
+    position: relative;
+    left: 0px;
+  }
+
+  .item3 {
+    position: relative;
+    display: flex;
+    height: 300px;
+    width: 320px;
+    background-color: #17141d;
+    border-radius: 10px;
+
+    position: relative;
+    left: 0px;
+  }
+
+  .card1img {
+    position: relative;
+    top: -100px;
+    width: 150px;
+    height: 100px;
+  }
+
+  .tabrik {
+    position: relative;
+    top: -100px;
+  }
+  .card2img {
+    width: 150px;
+    height: 100px;
+  }
+  .card3img {
+    width: 150px;
+    height: 100px;
+  }
+  .card1btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    top: 90px;
+  }
+
+  .savdo {
+    width: 100px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: #4158d0;
+    background-image: linear-gradient(
+      43deg,
+      #4158d0 0%,
+      #c850c0 46%,
+      #ffcc70 100%
+    );
+    color: white;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  footer {
+    width: 100%;
+    height: 400px;
+    background-color: #000;
+    margin-top: 220px;
+    display: flex;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    flex: grow 1;
+  }
+
+  .social {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+  }
+
+  .grid {
+    margin-top: 20px;
+    width: 900px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+  }
+
+  h1 {
+    cursor: pointer;
+    font-size: 21px;
+  }
+
+  .instagram {
+    font-size: 44px;
+    cursor: pointer;
+  }
+
+  li {
+    list-style: none;
+    cursor: pointer;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+  }
+
+  .none {
+    display: none;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .cont {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+}

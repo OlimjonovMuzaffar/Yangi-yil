@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css2?family=Mukta+Mahee:wght@100;200;300;400;500;600;800&display=swap);
+
+body {
+  font-family: "Mukta Mahee", sans-serif;
+  background-color: #ffe53b;
+  background-image: linear-gradient(147deg, #ffe53b 0%, #ff2525 74%);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+h2 {
+  font-size: 28px;
+
+  color: white;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #21d4fd;
+  background-image: linear-gradient(19deg, #21d4fd 0%, #b721ff 100%);
+}
+
+button {
+  width: 120px;
+  height: 40px;
+  position: relative;
+  top: -20px;
+  left: 30%;
+  border-radius: 12px;
+  background-color: #ff3cac;
+  background-image: linear-gradient(
+    225deg,
+    #ff3cac 0%,
+    #784ba0 50%,
+    #2b86c5 100%
+  );
+
+  color: white;
+  border: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.box {
+  padding: 25px;
+  border-radius: 12px;
+
+  background-color: #fbda61;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
+}
+
+.boshsahifa {
+  position: relative;
+  top: 5px;
+  left: -10px;
+  width: 150px;
+  height: 60px;
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .card {
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 50px;
+  }
+}
