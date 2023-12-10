@@ -425,6 +425,16 @@ button {
     color: white;
   }
 
+  .qoldida {
+    position: relative;
+    top: -200px;
+  }
+
+  .cont {
+    position: relative;
+    top: -200px;
+  }
+
   .pages {
     gap: 15px;
   }
